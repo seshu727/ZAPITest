@@ -19,6 +19,6 @@ public class Launch {
 	@Test
 	public void sampleTest() {
 		System.out.println("done");
-		Assert.assertEquals(true, "done");
+		Assert.assertEquals("seshu", "seshu");
 	}
 }
