@@ -1,15 +1,15 @@
 package Git_Actions;
 
-import org.junit.Assert;
-import org.junit.BeforeClass;
-import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 
 public class Launch {
 	static WebDriver driver;
-	@BeforeClass
+	@BeforeTest
 	public static void setup() throws Throwable {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\SESHU\\Talentas\\Talent_Workspace\\webApp_Purchase_Insight_Tool\\Drivers\\chromedriver.exe");
